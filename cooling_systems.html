@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="google-site-verification" content="KKgm9ANAaOysh4LQAUGovCDKZxjW1taK_gdHWdK4I0Y" />
+<meta name="description" content="Shardul Shrikhande is a graduate student in UW-Madison's class of 2024, pursuing a major in Mechanical Engineering. He has experience in Thermal and Fluid Science, Data Analysis, and enjoys cooking, readings books, and exploring museums in her free time. He is currently looking for research and full-time opportunities.">
+<meta name="keywords" content="Shardul Shrikhande, UW-Madison, University of Wisconsin-Madison, student, graduate, MS, research, mechanical engineering, heat transfer, manufacturing, automobile, mathematics, programming, data analysis, software engineering, University of Wisconsin Madison">
+<meta name="resource-type" content="document">
+<meta name="revisit-after" content="5 days">
+<meta name="classification" content="Personal">
+<meta name="robots" content="ALL">
+<meta name="distribution" content="Global">
+<meta name="rating" content="Safe For Kids">
+<meta name="copyright" content="2023, Shardul Shrikhande">
+<meta name="author" content="Shardul Shrikhande">
+
+<title>Shardul Shrikhande's Personal Website</title>
+<!--
+
+Template 2087 Kalay
+
+http://www.tooplate.com/view/2087-kalay
+
+-->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+<link rel='stylesheet' type='text/css' href='bootstrap/css/bootstrap.min.css' >
+<link rel='stylesheet' type='text/css' href='css/linea.css' >
+<link rel='stylesheet' type='text/css' href='css/ionicons.min.css' >
+<link rel='stylesheet' type='text/css' href='css/owl.carousel.css' >
+<link rel='stylesheet' type='text/css' href='css/magnific-popup.css' >
+<link rel='stylesheet' type='text/css' href='css/style.css' >
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/magnific-popup.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+
+<!-- MAIN CSS -->
+<link rel="stylesheet" href="css/tooplate-style.css">
+
+</head>
+<body>
+
+
+
+<!-- EXTRACURRICULAR SECTION -->
+<section id="service" class="parallax-section">
+    <div class="container">
+         <div class="row">
+                
+             <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
+                                 
+                 <h2>Composite Fan Shroud</h2>
+                                 
+             </div>
+                             
+             <div class="row">
+                <br><br>
+                <div class="col-md-4 col-sm-8">
+                     <div class="about-image-thumb">
+                        <figure>
+                          <img src="images/radiator.jpeg" class="wow fadeInUp img-responsive" data-wow-delay="0.6s" alt="about image">
+                          <div class="wow fadeInUp section-title" data-wow-delay="0.8s">
+                            <figcaption>Figure 1. Heat Exchanger</figcaption>
+                          </div>
+                          
+                        </figure>
+                        <br>
+                        
+                        <figure>
+                            <img src="images/matlab_model_cs.JPG" class="wow fadeInUp img-responsive" data-wow-delay="0.6s" alt="about image">
+                            <div class="wow fadeInUp section-title" data-wow-delay="0.8s">
+                                <figcaption>Figure 2. MATLAB Simulink Model</figcaption>
+                            </div>
+                            
+                          </figure>
+                          <br>
+
+                          <figure>
+                              <img src="images/pump_data.JPG" class="wow fadeInUp img-responsive" data-wow-delay="0.6s" alt="about image">
+                              <div class="wow fadeInUp section-title" data-wow-delay="0.8s">
+                                  <figcaption>Figure 3. Pump characteristics</figcaption>
+                              </div>
+                              
+                            </figure>
+                            <br>
+
+     
+                        </div>
+                </div>
+ 
+                <div class="col-md-8 col-sm-12">
+                     <div class="about-thumb">
+                          <div class="wow fadeInUp section-title" data-wow-delay="0.6s">
+                              
+                              <p>Previous season, we used a KTM 390 stock radiator and radiator fan. The problem faced last year was insufficient cooling, which caused overheating of the engine, which affected the performance of the car. Moreover, the stock Cooling system was designed for bikes and was not capable of cooling the engine in a Formula Car, which has to perform with a large load, and thus the heat ejected was more for efficient performance. Hence, our team felt the need to change the cooling system for better cooling of the engine. The goal for this year’s vehicle is to have a simple, reliable, and well-built vehicle that can respectably compete at the Formula SAE competition in Coimbatore, India.</p>
+
+                              <p>This model uses an engine cooling system using thermal liquid blocks. Heat from the engine is absorbed by the water coolant and dissipated through the radiator. The thermal liquid blocks include the Fluid Jacket, pump, and radiator. The model is developed in MATLAB Simulink. 
+                                   
+                                   <p>The fluid jacket and the Radiator are modifications of the Pipe (TL) block. These components represent an internal volume of liquid to model the effects of dynamic compressibility and thermal capacity using the mass and energy conservation equations. Default priorities for the pressure and temperature are set to high to provide initial conditions for the liquid state. </p>
+                                   
+                                   <p>All four components inherit from foundation.thermal_liquid.two_port_dynamic or 
+                                    foundation.thermal_liquid.two_port_steady base classes, which implement common equations to calculate the energy flow rate based on a smoothed upwind method. This method allows energy to be convected downstream, 
+                                   enabling the proper propagation of information throughout the thermal liquid network.</p>
+                               
+                              <p>This block models a fluid jacket in a thermal liquid network that absorbs heat from its surroundings. It assumes that there is a non-negligible volume of liquid inside the jacket to model the effects of dynamic compressibility and thermal capacity. The heat exchange is calculated based on a Nusselt number correlation. Port H, the thermal conserving port, represents the surface through which heat transfer occurs.</p>
+                               
+                              <p>Simulation and actucal coolant temperature were evaluated by assembling thermocouples in the bottom coolant tank of the heat exchanger; both data were compared and didn't show any considerable difference.</p>
+                              
+                              <p>This graph was obtained by using a mass flow sensor. A sensor was attached to the cooling system between the hoses to differentiate the mass flow rate between coolant and distilled water. Due to the change in viscosity of both fluids, as coolant becomes more viscous, pumps require a bit more power to circulate coolant in the system. This results in a decrease in mass flow rate, which eventually alters the heat transfer capacity of the cooling system.</p>
+
+
+                              </div>
+                     </div>
+                </div>
+                
+           </div>
+          <!-- <hr>
+           <div class="row">
+                <br><br>
+                <div class="col-md-8 col-sm-12">
+                     <div class="about-thumb">
+                          <div class="wow fadeInUp section-title" data-wow-delay="0.6s">
+                               <a target="_blank" href="https://chennai.vit.ac.in/blood-donation-drive-organised-by-rotaract-club-of-vit-chennai-was-held-on-friday/"><h2>Rotaract Club VIT Chennai </h2></a>
+                              <br>
+                               <p>add text here!</p>
+                               <p> add text here!!
+                          </div>
+                     </div>
+                </div>
+                
+                <div class="col-md-4 col-sm-8">
+                     <div class="about-image-thumb">
+                          <img src="images/rotary_club.jpg" class="wow fadeInUp img-responsive" data-wow-delay="0.6s" alt="about image">
+                     </div>
+                </div>
+               <br><br>
+           </div>
+      -->		
+        </div>
+    </div>
+ </section>
+
+ <!-- FOOTER SECTION -->
+<footer>
+    <div class="container bottom">
+        <div class="row">
+
+               <div class="wow fadeInUp col-md-12 col-sm-12" data-wow-delay="0.4s">
+                    <p>Copyright &copy; 2023 Shardul Shrikhande 
+                         </p>
+                    <div class="wow fadeInUp" data-wow-delay="0.4s">
+                         <ul class="social-icon" style="text-align: center;">
+                            <li><a target="_blank" href="https://shardulshrikhande.github.io/" class="fa fa-home"></a></li>
+                              <li><a target="_blank" href="https://www.linkedin.com/in/shardulshrikhande/" class="fa fa-linkedin"></a></li>
+                              <li><a target="_blank" href="https://github.com/shardulshrikhande" class="fa fa-github"></a></li>
+                              <li><a target="_blank" href="https://twitter.com/theshardul" class="fa fa-twitter"></a></li>
+                         </ul>
+                    </div>
+          </div>
+     </div>
+</footer>
+
+
+ <!-- SCRIPTS -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.parallax.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/magnific-popup-options.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>

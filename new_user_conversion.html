@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="google-site-verification" content="KKgm9ANAaOysh4LQAUGovCDKZxjW1taK_gdHWdK4I0Y" />
+<meta name="description" content="Shardul Shrikhande is a graduate student in UW-Madison's class of 2024, pursuing a major in Mechanical Engineering. He has experience in Thermal and Fluid Science, Data Analysis, and enjoys cooking, readings books, and exploring museums in her free time. He is currently looking for research and full-time opportunities.">
+<meta name="keywords" content="Shardul Shrikhande, UW-Madison, University of Wisconsin-Madison, student, graduate, MS, research, mechanical engineering, heat transfer, manufacturing, automobile, mathematics, programming, data analysis, software engineering, University of Wisconsin Madison">
+<meta name="resource-type" content="document">
+<meta name="revisit-after" content="5 days">
+<meta name="classification" content="Personal">
+<meta name="robots" content="ALL">
+<meta name="distribution" content="Global">
+<meta name="rating" content="Safe For Kids">
+<meta name="copyright" content="2023, Shardul Shrikhande">
+<meta name="author" content="Shardul Shrikhande">
+
+<title>Shardul Shrikhande's Personal Website</title>
+<!--
+
+Template 2087 Kalay
+
+http://www.tooplate.com/view/2087-kalay
+
+-->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+<link rel='stylesheet' type='text/css' href='bootstrap/css/bootstrap.min.css' >
+<link rel='stylesheet' type='text/css' href='css/linea.css' >
+<link rel='stylesheet' type='text/css' href='css/ionicons.min.css' >
+<link rel='stylesheet' type='text/css' href='css/owl.carousel.css' >
+<link rel='stylesheet' type='text/css' href='css/magnific-popup.css' >
+<link rel='stylesheet' type='text/css' href='css/style.css' >
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/magnific-popup.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+
+<!-- MAIN CSS -->
+<link rel="stylesheet" href="css/tooplate-style.css">
+
+</head>
+<body>
+
+
+
+<!-- EXTRACURRICULAR SECTION -->
+<section id="service" class="parallax-section">
+    <div class="container">
+         <div class="row">
+                
+             <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
+                                 
+                 <h2>New User Conversion Model</h2>
+                                 
+             </div>
+                             
+             <div class="row">
+                <br><br>
+                <div class="col-md-4 col-sm-8">
+                     <div class="about-image-thumb">
+                        <figure>
+                          <img src="images/train_data_set.JPG" class="wow fadeInUp img-responsive" data-wow-delay="0.6s" alt="about image">
+                          <div class="wow fadeInUp section-title" data-wow-delay="0.8s">
+                            <figcaption>Figure 1. Train data set % of acquisitions covered in the top 5 deciles is 83.51%</figcaption>
+                          </div>
+                          
+                        </figure>
+                        <br>
+                        
+                        <figure>
+                            <img src="images/test_data_set.JPG" class="wow fadeInUp img-responsive" data-wow-delay="0.6s" alt="about image">
+                            <div class="wow fadeInUp section-title" data-wow-delay="0.8s">
+                                <figcaption>Figure 2. Test data set % of acquisitions covered in the top 5 deciles is 83.51%</figcaption>
+                            </div>
+                            
+                          </figure>
+                          <br>
+
+                         
+
+                          <figure>
+                              <img src="images/pdp_recency_view_test.JPG" class="wow fadeInUp img-responsive" data-wow-delay="0.6s" alt="about image">
+                              <div class="wow fadeInUp section-title" data-wow-delay="0.8s">
+                                  <figcaption>Figure 3. Product description page test data set</figcaption>
+                              </div>
+                              
+                            </figure>
+
+                        </div>
+                </div>
+ 
+                <div class="col-md-8 col-sm-12">
+                     <div class="about-thumb">
+                          <div class="wow fadeInUp section-title" data-wow-delay="0.6s">
+                               
+                              
+                               <p>To build a model that can predict the conversion propensity with improved accuracy. Build logic and allocate points as per the new user's conversion propensity. I had a major role in the project, i.e., collating the data in the required format and allocating points to RNB users based on their past behavior.</p>
+                               
+                               <p>Random Forest Classifier:- Random forests, also known as random decision forests, are a popular ensemble method that can beused to build predictive models for both classification and regression problems. Ensemble methods multiple learning models to gain better predictive results—in the case of a random forest, themodel creates an entire forest of random, uncorrelated decision trees to arrive at the best possible
+                                   answer.</p>
+                               
+                               
+                               <p>New User Conversion Model Steps:-</p>
+
+                               <p>Step 1: We cleaned the data and removed or assigned null and unknown values in Python.</p>
+                                <p>Step 2: After cleaning the data, we did exploratory data analysis and selected only those features that were significant. We tested the significance level of all the features (independent variables) in the table. The features were divided into numeric and categorical variables depending on the type of values present in the respective columns.</p>
+                               <p>Step 3: We divided the dataset into 70:30 ratios for the training and test sets, respectively. We applied the Random Forest classifier model for predicting RNB users conversion on the train and test sets.</p>
+                               <p>Step 4: Model trainings as previously explained, we gave the Random Forest Classifier a variety of features to decide on. Based on the pre-period data model, we would train and learn the behavior of RNB users. As per the activity of the users on the platform, it would predict the users acquisition propensity.</p>
+                               <p>Step 5: Model accuracy by checking the overall average of the model and comparing it with the acquisition and predicted acquisition rates.</p>
+                               <p>Step 6: We applied this model to the prediction data set, which is the post-period data set. The day on which we want to run the points property will be our post-date.</p>
+                               <p>Step 7: We will get the UIDX and propensity percentile columns as a csv file, which will be further used to allocate points in payments admin.</p>
+                              <p>Step 8: Points property, points are allocated based on the user’s probability of conversion; if the probability of conversion is high, i.e., in higher propensity percentiles, the user will be given low points. Points are distributed in 30:30:40 over decile range. Low deciles will get 500, medium deciles will get 400, and Higher deciles will get 300. The probability of conversion is inversely proportional to points.</p>
+                              <p>Step 9: Notifications and SMS were sent to the RNB user base, as well as banners displayed on the platform.</p>
+                               <p>To conclude, above-mentioned benefits, this model was to be used while distributing points in property. Due to targeted point distribution, we spent fewer points and achieved a lower delta gross margin for a similar number of acquisitions. The top 5 deciles covered 86.91% of total acquisition. </p>
+                              
+
+                            
+                            
+                              </div>
+                     </div>
+                </div>
+                
+           </div>
+          <!-- <hr>
+           <div class="row">
+                <br><br>
+                <div class="col-md-8 col-sm-12">
+                     <div class="about-thumb">
+                          <div class="wow fadeInUp section-title" data-wow-delay="0.6s">
+                               <a target="_blank" href="https://chennai.vit.ac.in/blood-donation-drive-organised-by-rotaract-club-of-vit-chennai-was-held-on-friday/"><h2>Rotaract Club VIT Chennai </h2></a>
+                              <br>
+                               <p>add text here!</p>
+                               <p> add text here!!
+                          </div>
+                     </div>
+                </div>
+                
+                <div class="col-md-4 col-sm-8">
+                     <div class="about-image-thumb">
+                          <img src="images/rotary_club.jpg" class="wow fadeInUp img-responsive" data-wow-delay="0.6s" alt="about image">
+                     </div>
+                </div>
+               <br><br>
+           </div>
+      -->		
+        </div>
+    </div>
+ </section>
+
+ <!-- FOOTER SECTION -->
+<footer>
+    <div class="container bottom">
+        <div class="row">
+
+               <div class="wow fadeInUp col-md-12 col-sm-12" data-wow-delay="0.4s">
+                    <p>Copyright &copy; 2023 Shardul Shrikhande 
+                         </p>
+                    <div class="wow fadeInUp" data-wow-delay="0.4s">
+                         <ul class="social-icon" style="text-align: center;">
+                            <li><a target="_blank" href="https://shardulshrikhande.github.io/" class="fa fa-home"></a></li>
+                              <li><a target="_blank" href="https://www.linkedin.com/in/shardulshrikhande/" class="fa fa-linkedin"></a></li>
+                              <li><a target="_blank" href="https://github.com/shardulshrikhande" class="fa fa-github"></a></li>
+                              <li><a target="_blank" href="https://twitter.com/theshardul" class="fa fa-twitter"></a></li>
+                         </ul>
+                    </div>
+          </div>
+     </div>
+</footer>
+
+
+ <!-- SCRIPTS -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.parallax.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/magnific-popup-options.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
