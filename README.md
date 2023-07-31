@@ -1,7 +1,7 @@
 
 # shardulshrikhande.github.io
 
-This is my personal website!
+This is Shardul Shrikhande's personal website!
 
 
 ## Acknowledgements
