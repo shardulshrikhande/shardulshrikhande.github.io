@@ -25,5 +25,6 @@ http://www.tooplate.com/view/2087-kalay
 
 ## Appendix
 
-Copyright © 2023 Shardul Shrikhande. All rights reserved.
+Copyright © 2023 Shardul Shrikhande. All rights reserved. 
+This website (and the information shown therein) is CONFIDENTIAL and PROPRIETARY and shall not be disclosed to others in hard copy or electronic form, reproduced by any means, or used for any purpose without written consent of Shardul Shrikhande. 
 
